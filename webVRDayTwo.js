@@ -7,7 +7,7 @@ window.addEventListener('load', vrHomePage);
 
 vrHomePage.on('ready', function(events){
   vrHomePage.addHotspot('creating-hotspot-1', {
-    pitch: -0,
+    pitch: 30,
     yaw: -125,
     radius: 0.10,
     distance: 1
@@ -23,7 +23,7 @@ vrHomePage.on('ready', function(events){
 vrHomePage.on('click', function(event){
   console.log('register all click events');
   if (event.id == 'creating-hotspot-1'){
-    alert('My favorite thing to do is do contortion');
+    alert('This position is actually very comfortable');
   }
 });
 

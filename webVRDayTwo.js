@@ -31,8 +31,8 @@ vrHomePage.on('ready', function(events){
     distance: 1
   });
   vrHomePage.addHotspot('creating-hotspot-5',{
-    pitch: -40
-    yaw: 70
+    pitch: -40,
+    yaw: 70,
     radius: 0.10,
     distance: 1
   });

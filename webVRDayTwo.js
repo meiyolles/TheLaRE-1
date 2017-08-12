@@ -19,10 +19,11 @@ vrHomePage.on('ready', function(events){
     distance: 1
   });
   vrHomePage.addHotspot('creating-hotspot-3',{
-    pitch: 90
-    yaw: -50
+    pitch: 90,
+    yaw: -50,
     radius: 0.10,
     distance: 1
+  });
 });
 
 vrHomePage.on('click', function(event){

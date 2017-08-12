@@ -1,5 +1,5 @@
 var vrHomePage = vRViewPlayer('#meiayeshadocs', {
-    image: 'Mei.jpg',
+    image: 'mei.jpg',
     is_stereo: false,
     is_autopan_off: true,
 });

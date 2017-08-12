@@ -47,7 +47,7 @@ vrHomePage.on('click', function(event){
     alert("Doing too many things always makes me exhausted");
   }
   if (event.id == 'creating-hotspot-4'){
-  vrHomePage.setcontent({
+  vrHomePage.setContent({
     image: 'mei3.jpg',
     is_stereo: false
   });

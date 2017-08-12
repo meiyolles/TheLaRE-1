@@ -24,6 +24,12 @@ vrHomePage.on('ready', function(events){
     radius: 0.10,
     distance: 1
   });
+  vrHomePage.addHotspot('creating-hotspot-4',{
+    pitch: 50,
+    yaw: -30,
+    radius: 0.10,
+    distance: 1
+  });
 });
 
 vrHomePage.on('click', function(event){
@@ -39,5 +45,11 @@ vrHomePage.on('click', function(event){
   }
   if (event.id == 'creating-hotspot-3'){
     alert("Doing too many things always makes me exhausted");
-  } 
+  }
+  if (event.id == 'creating-hotspot-4'){
+  vrHomePage.setcontent({
+    image: 'mei3.jpg',
+    is_stereo: false
+  });
+}
 });

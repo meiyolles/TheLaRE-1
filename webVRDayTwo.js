@@ -29,7 +29,7 @@ vrHomePage.on('ready', function(events){
 vrHomePage.on('click', function(event){
   console.log('register all click events');
   if (event.id == 'creating-hotspot-2'){
-  myPicture.setContent({
+  vrHomePage.setContent({
     image: 'mei2.jpg',
     is_stereo: false
   });
@@ -37,4 +37,7 @@ vrHomePage.on('click', function(event){
   if (event.id == 'creating-hotspot-1'){
     alert("This is actually very comfortable position");
   }
+  if (event.id == 'creating-hotspot-3'){
+    alert("Doing too many things always makes me exhausted");
+  } 
 });

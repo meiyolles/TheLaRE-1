@@ -30,6 +30,12 @@ vrHomePage.on('ready', function(events){
     radius: 0.10,
     distance: 1
   });
+  vrHomePage.addHotspot('creating-hotspot-5',{
+    pitch: -40
+    yaw: 70
+    radius: 0.10,
+    distance: 1
+  });
 });
 
 vrHomePage.on('click', function(event){
@@ -52,4 +58,7 @@ vrHomePage.on('click', function(event){
     is_stereo: false
   });
 }
+  if (event.id == 'creating-hotspot-5'){
+    alert("I'll change this later");
+  }
 });

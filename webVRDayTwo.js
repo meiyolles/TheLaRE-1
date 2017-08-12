@@ -33,4 +33,7 @@ vrHomePage.on('click', function(event){
     is_stereo: false
   });
   }
+  if (event.id == 'creating-hotspot-1'){
+    alert("This is actually very comfortable position");
+  }
 });

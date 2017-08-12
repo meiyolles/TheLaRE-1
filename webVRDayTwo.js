@@ -18,13 +18,11 @@ vrHomePage.on('ready', function(events){
     radius: 0.10,
     distance: 1
   });
-});
-
-vrHomePage.on('click', function(event){
-  console.log('register all click events');
-  if (event.id == 'creating-hotspot-1'){
-    alert('This position is actually very comfortable');
-  }
+  vrHomePage.addHotspot('creating-hotspot-3',{
+    pitch: 90
+    yaw: -50
+    radius: 0.10,
+    distance: 1
 });
 
 vrHomePage.on('click', function(event){
